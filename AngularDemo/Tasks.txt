@@ -1,0 +1,34 @@
+﻿Code Kata with Angular.js - Developed by Jake.
+
+You have number of tasks with no real time limit so please take your time.
+
+Feel free to speak to myself, Toby, Cathy if you get stuck.
+
+1. On the homepage the table listing the latest questions is currently unsorted, your task is to order the dates in descending order.
+
+2. Form validation is required for adding a new question
+
+	Question is required, min input length is 10 characters, max input is 1000 characters
+	Name is required, max input length 255
+
+	* Disable the submit button, only enable the button if and when the actual form is valid
+
+3. Extend the MockedQuestionApi service to save a new question all you need to do is push!!
+
+4. Form validation is required for reply's
+	
+	Name is required
+	Answer is required
+
+	* Again disable the reply button only enable when the form is actually valid
+
+5. Extend MockedQuestionApi push all replys onto the target question.
+
+6. Bug on voter directive disable the down vote button if the count is at 0.
+
+7. Extend the voter directive to hide the vote buttons after the up/down button has been picked.
+
+8. Limit the homepage table to the latest top 5 questions, add a show more button that then reveals the full list.
+
+Prize for the first person to complete all tasks listed
+

@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Skin/css/bootstrap.css" rel="stylesheet" />
+</head>
+<body ng-app="myApp">
+    <div  class="container">
+        <div class="row">
+            <div class="span12">
+                <div class="hero-unit">
+                    <h1>Rapid Reponse</h1>
+                    <p>Ask a question, get an answer in two minutes or less</p>
+                      <a class="btn btn-primary btn-large" href="/question/new">
+                        Ask and you shall find...
+                      </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div ng-view class="span12">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+    <script src="~/Scripts/Lib/angular.js"></script>
+    <script src="~/Scripts/App/Main.js"></script>
+    <script src="~/Scripts/App/Services/QuestionApiSvc.js"></script>
+    <script src="~/Scripts/App/Directives/Voter.js"></script>
+    <script src="~/Scripts/App/Controllers/HomeController.js"></script>
+    <script src="~/Scripts/App/Controllers/QuestionController.js"></script>
+    <script src="~/Scripts/App/Controllers/AnswerController.js"></script>
+    
+</body>
+</html>

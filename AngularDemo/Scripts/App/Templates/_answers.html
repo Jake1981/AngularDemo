@@ -1,0 +1,20 @@
+﻿
+<h3>{{ question.text }}</h3>
+<h4>Replies so far</h4>
+<table class="table table-striped">
+    <tr ng-repeat="reply in question.replys">
+        <td>{{reply.answer}}</td>
+        <td>{{reply.postedBy}}</td>
+        <td><voter count="reply.votes"></voter></td>
+    </tr>
+</table>
+<div>Name:</div>
+<div><input type="text" name="postedBy" /></div>
+<div>Post an answer:</div>
+<div>
+   <textarea rows="5"></textarea> 
+</div>
+<div>
+    <button class="btn btn-primary">Answer</button>
+    <a href="/" class="btn btn-info">Go Back</a>
+</div>
