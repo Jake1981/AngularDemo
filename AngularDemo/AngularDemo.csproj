@@ -126,12 +126,14 @@
     <Content Include="Scripts\App\Controllers\AnswerController.js" />
     <Content Include="Scripts\App\Controllers\HomeController.js" />
     <Content Include="Scripts\App\Controllers\QuestionController.js" />
+    <Content Include="Scripts\App\Directives\Voter.js" />
     <Content Include="Scripts\App\Main.js" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\App\Services\QuestionApiSvc.js" />
     <Content Include="Scripts\App\Templates\_newquestion.html" />
     <Content Include="Scripts\App\Templates\_answers.html" />
     <Content Include="Scripts\App\Templates\_questions.html" />
+    <Content Include="Scripts\App\Templates\_voter.html" />
     <Content Include="Scripts\Lib\angular.js" />
     <Content Include="Skin\css\bootstrap-responsive.css" />
     <Content Include="Skin\css\bootstrap-responsive.min.css" />
@@ -141,6 +143,7 @@
     <Content Include="Skin\img\glyphicons-halflings.png" />
     <Content Include="Skin\js\bootstrap.js" />
     <Content Include="Skin\js\bootstrap.min.js" />
+    <Content Include="Tasks.txt" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -152,7 +155,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
-    <Folder Include="Scripts\App\Directives\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

@@ -28,7 +28,9 @@ Feel free to speak to myself, Toby, Cathy if you get stuck.
 
 7. Extend the voter directive to hide the vote buttons after the up/down button has been picked.
 
-8. Limit the homepage table to the latest top 5 questions, add a show more button that then reveals the full list.
+8. On the answer view order by number of votes descending
+
+9. Limit the homepage table to the latest top 5 questions, add a show more button that then reveals the full list.
 
 Prize for the first person to complete all tasks listed
 
